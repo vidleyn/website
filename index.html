@@ -1,40 +1,335 @@
 <!DOCTYPE html>
 <html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/svg"
+            href="icons/favicon.svg"
+        />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/svg" href="img/favicon.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="styles/styles.css"
+        />
 
-    <link rel="stylesheet" href="styles/styles.css" />
+        <title>Vidleyn Studio</title>
+    </head>
 
-    <title>Vidleyn Studio</title>
-</head>
+    <body>
+        <header class="header">
+            <div class="header-block container">
+                <a href="">
+                    <img
+                        class="logo"
+                        src="icons/vidleyn_logo.svg"
+                        alt="logo"
+                    />
+                </a>
+                <nav class="header-menu">
+                    <ul class="header-menu-list">
+                        <li class="header-menu-item"><a href="#portfolio">Портфолио</a></li>
+                        <li class="header-menu-item"><a href="#services">Услуги</a></li>
+                        <li class="header-menu-item"><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
 
-<body>
-    <!--TODO:  -->
-    <header>
-        <img class="logo" src="img/vidleyn_logo.svg" alt="logo">
-        <nav>
-            <ul class="menu">
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Услуги</a></li>
-                <li><a href="">Контакты</a></li>
-            </ul>
-        </nav>
-        <a href=""><button type="button">Связаться</button></a>
-    </header>
+                <button
+                    class="header-button button"
+                    type="button"
+                >
+                    Связаться
+                </button>
+            </div>
+        </header>
 
-    <div class="hero">
-        <h1>Разработка сайтов <br>от идеи до запуска</h1>
-        <p>Разработка сайтов от идеи до запуска.</p>
-        <button class="hero-btn">Заказать сайт</button>
-    </div>
-</body>
+        <section class="hero">
+            <div class="hero-block container">
+                <div class="hero-block-body">
+                    <h1 class="hero-title">Разработка сайтов от идеи до запуска</h1>
+                    <p class="hero-description">Разработка сайтов от идеи до запуска.</p>
+                    <button class="button">Заказать сайт</button>
+                </div>
+                <img
+                    src="icons/favicon.svg"
+                    alt=""
+                    loading="lazy"
+                    height="580px"
+                    width="580px"
+                />
+            </div>
+        </section>
 
+        <section class="advantages">
+            <div class="advantages-block container">
+                <h2 class="advantages-title">Почему работать со мной?</h2>
+                <ul class="advantages-list card-list">
+                    <li class="advantages-item">
+                        <article class="advantages-card card">
+                            <h3 class="advantages-card-title">Индивидуальный подход</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="advantages-item">
+                        <article class="advantages-card card">
+                            <h3 class="advantages-card-title">Процесс работы</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="advantages-item">
+                        <article class="advantages-card card">
+                            <h3 class="advantages-card-title">Постоянное развитие</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section
+            id="portfolio"
+            class="portfolio"
+        >
+            <div class="portfolio-block container">
+                <h2 class="portfolio-title">Портфолио</h2>
+                <ul class="portfolio-list card-list">
+                    <li class="portfolio-item">
+                        <article class="portfolio-card card">
+                            <h3 class="portfolio-card-title">Индивидуальный подход</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                            <button
+                                class="button"
+                                type="button"
+                            >
+                                Смотреть
+                            </button>
+                        </article>
+                    </li>
+                    <li class="portfolio-item">
+                        <article class="portfolio-card card">
+                            <h3 class="portfolio-card-title">Процесс работы</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                            <button
+                                class="button"
+                                type="button"
+                            >
+                                Смотреть
+                            </button>
+                        </article>
+                    </li>
+                    <li class="portfolio-item">
+                        <article class="portfolio-card card">
+                            <h3 class="portfolio-card-title">Постоянное развитие</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                            <button
+                                class="button"
+                                type="button"
+                            >
+                                Смотреть
+                            </button>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="steps">
+            <div class="steps-block container">
+                <h2 class="steps-title">Этапы работы</h2>
+                <ul class="steps-list card-list">
+                    <li class="steps-item">
+                        <article class="steps-card card">
+                            <h3 class="steps-card-title">Индивидуальный подход</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="steps-item">
+                        <article class="steps-card card">
+                            <h3 class="steps-card-title">Процесс работы</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="steps-item">
+                        <article class="steps-card card">
+                            <h3 class="steps-card-title">Постоянное развитие</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="steps-item">
+                        <article class="steps-card card">
+                            <h3 class="steps-card-title">Индивидуальный подход</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="steps-item">
+                        <article class="steps-card card">
+                            <h3 class="steps-card-title">Процесс работы</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="steps-item">
+                        <article class="steps-card card">
+                            <h3 class="steps-card-title">Постоянное развитие</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="steps-item">
+                        <article class="steps-card card">
+                            <h3 class="steps-card-title">Индивидуальный подход</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="steps-item">
+                        <article class="steps-card card">
+                            <h3 class="steps-card-title">Процесс работы</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section
+            id="services"
+            class="services"
+        >
+            <div class="services-block container">
+                <h2 class="services-title">Услуги</h2>
+                <ul class="services-list card-list">
+                    <li class="services-item">
+                        <article class="services-card card">
+                            <h3 class="services-card-title">Индивидуальный подход</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="services-item">
+                        <article class="services-card card">
+                            <h3 class="services-card-title">Процесс работы</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="services-item">
+                        <article class="services-card card">
+                            <h3 class="services-card-title">Постоянное развитие</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="services-item">
+                        <article class="services-card card">
+                            <h3 class="services-card-title">Индивидуальный подход</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="services-item">
+                        <article class="services-card card">
+                            <h3 class="services-card-title">Процесс работы</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="services-item">
+                        <article class="services-card card">
+                            <h3 class="services-card-title">Постоянное развитие</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="services-item">
+                        <article class="services-card card">
+                            <h3 class="services-card-title">Индивидуальный подход</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="services-item">
+                        <article class="services-card card">
+                            <h3 class="services-card-title">Процесс работы</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui laborum delectus repudiandae quidem molestiae fugit earum
+                                dicta voluptas ratione! Repellendus sit voluptas minus inventore animi, expedita porro vitae beatae!.
+                            </p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section
+            id="contacts"
+            class="contacts"
+        >
+            <div class="contacts-block container">
+                <h2 class="contacts-title">Контакты</h2>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-block container"></div>
+        </footer>
+    </body>
 </html>
