@@ -350,6 +350,37 @@ p {
     color: var(--color-gray-light);
 }
 
+.template {
+    display: flex;
+    align-items: center;
+    background-color: #005cc5;
+    margin-block: 0 !important;
+    height: 100vh;
+}
+
+.template-description {
+    text-align: center;
+    margin-bottom: 2em;
+    color: #ffffff;
+}
+
+@media (max-width: 960px) {
+    h1 {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+}
+
+.template-social-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+}
+
+.template-social-item {
+    text-decoration: none;
+}
+
 .hero-block {
     display: flex;
     align-items: center;
