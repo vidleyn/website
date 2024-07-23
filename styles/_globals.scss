@@ -1,0 +1,31 @@
+body {
+    font-family: var(--font-family-base);
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    line-height: 1.35;
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+a {
+    color: var(--color-light);
+}
+
+a:hover,
+button:hover {
+    opacity: 0.8;
+}
+
+section.hero {
+    margin-block: 80px;
+}
+
+section:not(.hero) {
+    margin-block: 120px;
+}
