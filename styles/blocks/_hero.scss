@@ -1,8 +1,71 @@
-.hero-block {
-    display: flex;
-    align-items: center;
-}
+.hero {
+  height: 640px;
 
-.hero-description {
-    margin-bottom: 2.5em;
+  &-block {
+    height: 100%;
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      border-radius: 20px;
+      padding: 80px;
+      border: 1px solid #333333;
+    }
+
+    &__body {
+      --hero-image-border-radius: 500px;
+
+      position: relative;
+      aspect-ratio: 1;
+      height: 100%;
+      max-width: 40%;
+
+      img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: var(--hero-image-border-radius);
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        inset: 0;
+        border: 1px solid #333333;
+        border-radius: var(--hero-image-border-radius);
+        transform: scale(1.1);
+      }
+    }
+
+    &__contents {
+      display: flex;
+      flex-direction: column;
+      row-gap: 24px;
+      align-items: start;
+      position: relative;
+      width: 40%;
+    }
+  }
+
+  &-title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    text-transform: uppercase;
+    font-size: 4em;
+    margin-bottom: 0;
+
+    &__line {
+      width: 100%;
+      display: inline-block;
+    }
+  }
+
+  &-subtitle {
+    font-size: 24px;
+    font-weight: 400;
+  }
 }
