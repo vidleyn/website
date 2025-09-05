@@ -1,0 +1,31 @@
+---
+import "../styles/main.css";
+import Header from "../layout/header/header.astro";
+import Footer from "../layout/footer/footer.astro";
+import Hero from "../layout/hero/hero.astro";
+import Portfolio from "../layout/portfolio/portfolio.astro";
+import Contacts from "../layout/contacts/contacts.astro";
+import Services from "../layout/services/services.astro";
+---
+
+<html lang="ru" class="scroll-smooth h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg" href="/assets/icons/favicon.svg" />
+    <title>Vidleyn Studio</title>
+  </head>
+
+  <body
+    class="text-white bg-[url(/assets/images/gradient.jpg)] bg-no-repeat bg-center bg-cover bg-blend-overlay h-full flex flex-col"
+  >
+    <Header />
+    <main class="flex-1">
+      <Hero />
+      <!-- <Portfolio /> -->
+      <!-- <Services /> -->
+      <!-- <Contacts /> -->
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,29 @@
+---
+import NavItem from "./nav-item.astro";
+---
+
+<header class="box-border sticky top-0 z-[100]">
+  <div class="max-w-7xl mx-auto px-6 md:px-12 p-5 mb-16">
+    <div
+      class="flex flex-row justify-center sm:justify-between items-center h-16 px-12.5 border border-[var(--color-light)]/10 bg-[var(--color-light)]/5 backdrop-blur-sm rounded-2xl"
+    >
+      <a href="/">
+        <img class="h-8 cursor-pointer" src="./assets/icons/vidleyn_logo.svg" alt="logo" />
+      </a>
+      <!-- <nav>
+        <ul class="flex gap-6">
+          <NavItem href="#portfolio" name="Проекты" />
+          <NavItem href="#services" name="Услуги" />
+          <NavItem href="#contacts" name="Контакты" />
+        </ul>
+      </nav> -->
+      <a
+        href="https://t.me/davidleyn"
+        target="_blank"
+        class="hidden sm:flex justify-center items-center font-semibold text-sm text-[var(--color-dark)] bg-[var(--color-light)] h-10 px-6 rounded-full"
+      >
+        Связаться
+      </a>
+    </div>
+  </div>
+</header>

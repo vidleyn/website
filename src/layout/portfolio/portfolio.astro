@@ -1,0 +1,13 @@
+---
+import PortfolioItem from "./portfolio-item.astro";
+import Heading from "../heading/heading.astro";
+import { works } from "./portfolio";
+---
+
+<section id="portfolio" class="max-w-7xl px-12.5 mx-auto mb-32 scroll-mt-24">
+  <Heading title="Портфолио" subtitle="Мои работы" />
+
+  <ul class="grid grid-cols-2 gap-5">
+    {works.map((work) => <PortfolioItem {...work} />)}
+  </ul>
+</section>
