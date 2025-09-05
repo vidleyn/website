@@ -1,0 +1,34 @@
+---
+import ServicesItem from "./services-item.astro";
+---
+
+<section id="services" class="max-w-7xl px-12.5 mx-auto mb-32 scroll-mt-24">
+  <p class="text-[var(--color-blue)] uppercase text-sm font-medium mb-4">No more boring swag</p>
+
+  <h2 class="text-4xl font-semibold md:text-6xl font-light leading-tight mb-6">
+    You bring the brand.
+  </h2>
+
+  <p class="text-[var(--color-gray-light)] max-w-2xl mb-16">
+    We’ve made corporate gifting & swag into an art form: expertly sourced, beautifully packaged,
+    and delivered hassle-free.
+  </p>
+
+  <div
+    class="divide-y divide-[var(--color-gray-dark)] border-t border-b border-[var(--color-gray-dark)]"
+  >
+    <ServicesItem />
+    <ServicesItem />
+    <ServicesItem />
+    <ServicesItem />
+  </div>
+
+  <div class="mt-12">
+    <a
+      href="#"
+      class="inline-block bg-[var(--color-blue)] text-black font-semibold px-6 py-3 rounded-lg"
+    >
+      Get your project started
+    </a>
+  </div>
+</section>

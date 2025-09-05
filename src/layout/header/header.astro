@@ -1,0 +1,28 @@
+---
+import NavItem from "./nav-item.astro";
+---
+
+<header
+  class="box-border border-b border-[var(--color-gray-dark)] bg-[var(--color-dark)]/50 backdrop-blur-sm sticky top-0 z-[100] mb-16"
+>
+  <div class="flex flex-row justify-between items-center h-16 max-w-7xl px-12.5 mx-auto">
+    <a href="/">
+      <img class="h-8 cursor-pointer" src="./assets/icons/vidleyn_logo.svg" alt="logo" />
+    </a>
+
+    <nav>
+      <ul class="flex gap-6">
+        <NavItem href="#portfolio" name="Проекты" />
+        <NavItem href="#services" name="Услуги" />
+        <NavItem href="#contacts" name="Контакты" />
+      </ul>
+    </nav>
+
+    <button
+      type="button"
+      class="font-semibold text-sm text-[var(--color-light)] bg-[var(--color-blue)] h-10 px-6 rounded-full transition-opacity duration-150 hover:opacity-80 cursor-pointer"
+    >
+      Связаться
+    </button>
+  </div>
+</header>
