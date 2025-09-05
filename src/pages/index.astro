@@ -8,7 +8,7 @@ import Contacts from "../layout/contacts/contacts.astro";
 import Services from "../layout/services/services.astro";
 ---
 
-<html lang="ru" class="scroll-smooth">
+<html lang="ru" class="scroll-smooth h-full">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,13 +16,15 @@ import Services from "../layout/services/services.astro";
     <title>Vidleyn Studio</title>
   </head>
 
-  <body class="text-white">
+  <body
+    class="text-white bg-[url(/assets/images/gradient.jpg)] bg-no-repeat bg-center bg-cover bg-blend-overlay h-full flex flex-col"
+  >
     <Header />
-    <main>
+    <main class="flex-1">
       <Hero />
-      <Portfolio />
-      <Services />
-      <Contacts />
+      <!-- <Portfolio /> -->
+      <!-- <Services /> -->
+      <!-- <Contacts /> -->
     </main>
     <Footer />
   </body>
